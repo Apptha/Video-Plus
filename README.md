@@ -1,0 +1,2 @@
+# Video-Plus
+Video Plus is a free joomla template suitable for building a video sharing website. The template has an attractive banner with slideshow effect at the header, post latest videos in the article,category tabs displaying recent videos, popular video and featured videos. The theme has an elegant color combination giving the website a stunning look. The template allows add popular video modules, your third party video extensions and ads on sidebar. You can keep a count on your website viewer and display it on the side bar.
