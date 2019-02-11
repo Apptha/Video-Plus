@@ -1,0 +1,76 @@
+/**
+ * Video Plus theme media stylesheet
+ *
+ * This stylesheet is for media support to upload logo
+ *
+ * @category   Apptha
+ * @package    videoplus
+ * @version    2.1
+ * @author     Apptha Team <developers@contus.in>
+ * @copyright  Copyright (C) 2016 Apptha. All rights reserved.
+ * @license    GNU General Public License http://www.gnu.org/copyleft/gpl.html
+ */
+ 
+.slide_top {
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	height: 35px;
+	background: url('toggle_bg.jpg') repeat-x;
+	cursor: pointer;
+}
+
+.slide_top span.slidetext {
+	display: block;
+	margin: 10px 0 0px 5px;
+	padding: 0 0 0 0px;
+	float: left;
+	width: 200px;
+	height: 10px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #666;
+	font-weight: bold;
+	float: left;
+}
+
+.slide_top span.togglebtn {
+	display: block;
+	background: url('toggle.png') repeat-x -16px 0px;
+	margin: 11px 16px 0 0;
+	float: right;
+	width: 14px;
+	height: 14px;
+	text-indent: -999em;
+}
+
+.slide_top.active span.togglebtn {
+	background-position: 0 0px;
+}
+
+.slide_top:hover span.togglebtn {
+	background-position: -16px 0px;
+}
+
+.slide_top.active:hover span.togglebtn {
+	background-position: 0px 0px;
+}
+
+.slide_content {
+	border-left: 1px solid #d1d1d1;
+	border-right: 1px solid #d1d1d1;
+}
+
+.paramlist_value .inputbox,.paramlist_value input.text_area {
+	width: 240px;
+	border: 1px solid #d1d1d1;
+	font-size: 13px;
+	padding: 5px 0 0 5px;
+}
+
+.paramlist_value .inputbox {
+	padding: 5px;
+}
+
+.paramlist_key label {
+	font-size: 11px;
+}

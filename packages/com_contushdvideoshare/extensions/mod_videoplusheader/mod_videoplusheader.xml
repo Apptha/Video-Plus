@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5" method="upgrade" client="site">
+	<name>Videoplus Header</name>
+	<version>2.1</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<copyright>Copyright (C) 2014 Powered by Apptha</copyright>
+	<description>Videoplus Header module for videoplus template</description>
+	<creationDate>September 2014</creationDate>
+	<author>Apptha</author>
+	<authorEmail>support@apptha.com</authorEmail>
+	<authorUrl>http://www.apptha.com</authorUrl>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename module="mod_videoplusheader">mod_videoplusheader.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.mod_videoplusheader.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.mod_videoplusheader.sys.ini</language>
+		</languages>
+	</files>
+</install>

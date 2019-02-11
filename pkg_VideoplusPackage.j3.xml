@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.7">
+	<name>Videoplus Package</name>
+	<author>Apptha</author>
+	<creationDate>March 2014</creationDate>
+	<packagename>Videoplus Package</packagename>
+	<version>2.1</version>
+	<url>http://www.apptha.com/</url>
+	<packager>Apptha</packager>
+	<packagerurl>http://www.apptha.com/</packagerurl>
+	<authorEmail>assist@apptha.com</authorEmail>
+	<authorUrl>http://www.apptha.com</authorUrl>
+	<description>Videoplus Package</description>
+	<scriptfile>script.php</scriptfile>
+	<update>http://www.apptha.com</update>
+	<files folder="packages">
+		<file type="component" id="com_contushdvideoshare" >com_contushdvideoshare.zip</file>
+		<file type="template" id="videoplus" client="site">videoplus.zip</file>
+	</files>
+</extension>

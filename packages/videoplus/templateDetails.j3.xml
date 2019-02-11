@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.5" type="template" client="site" method="upgrade">
+	<name>Videoplus</name>
+	<creationDate>September 2014</creationDate>
+	<author>Apptha</author>
+	<authorEmail>assist@apptha.com</authorEmail>
+	<authorUrl>http://www.apptha.com</authorUrl>
+	<copyright>Copyright (C) 2016 Powered by Apptha</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>2.1</version>
+	<description>
+        <![CDATA[
+        <style>
+        table.adminform th{padding:0px;}
+        </style>
+        <div style="/* Opera 11.10+ */
+        background: -o-linear-gradient(top, rgba(255,255,255,1), rgba(232,232,232,1));
+
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(232,232,232,1));
+
+        /* Chrome 7+ & Safari 5.03+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,255,255,1)), color-stop(1, rgba(232,232,232,1)));
+
+        /* IE5.5 - IE7 */
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFFFF,EndColorStr=#FFE8E8E8);
+
+        /* IE8 */
+        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFFFF,EndColorStr=#FFE8E8E8);">
+        <div style="float: left; margin:10px 10px 10px 10px;">
+                <a href="http://www.apptha.com/" target="_blank">
+                    <img src="../templates/videoplus/images/apptha.jpg" alt="Apptha! Videoplus" align="left" />
+                </a>
+            </div>
+            <div style="clear:both;"></div>
+        <p style="font-style:normal;font-size:13px;font-weight:normal;">Videoplus is a premium joomla template suitable for building a video sharing website. The template has an attractive banner with slideshow effect.</p>
+            <div style="margin-left:10px;padding-bottom:10px;">
+                <a target="_blank" href="https://docs.google.com/viewer?url=https://www.apptha.com/downloadable/download/sample/sample_id/50/Video Plus">Click here to download the documentation</a><br/>
+            </div>
+            </div>
+     ]]>
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>element</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>params.ini</filename>
+		<folder>language</folder>
+		<folder>js</folder>
+		<folder>options</folder>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_videoplus.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_videoplus.sys.ini</language>
+	</languages>
+	<positions>
+		<position>videoplus-header</position>
+		<position>videoplus-banner</position>
+		<position>videoplus-category</position>
+		<position>videoplus-bottom</position>
+		<position>position-6</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>right</position>
+		<position>user3</position>
+		<position>user2</position>
+		<position>footerload</position>
+		<position>breadcrumb</position>
+		<position>footermenu</position>
+		<position>footer</position>
+	</positions>
+	<params addpath="/templates/videoplus/element">
+		<param type="spacer" default="JGLOBAL_FIELDSET_TPL_VIDEOPLUS_LOGO_SETTING" />
+		<param name="logo" type="Media" default="" label="TPL_VIDEOPLUS_LOGO_LABEL"
+			description="TPL_VIDEOPLUS_LOGO_DESC" directory="  " />
+		<param type="spacer" default="JGLOBAL_FIELDSET_TPL_VIDEOPLUS_SOCIAL_ICON_SETTING" />
+		<param name="facebook_url" type="text" default="" label="TPL_VIDEOPLUS_FACEBOOK_LABEL"
+			description="TPL_VIDEOPLUS_FACEBOOK_DESC" />
+		<param name="twitter_url" type="text" default="" label="TPL_VIDEOPLUS_TWITTER_LABEL"
+			description="TPL_VIDEOPLUS_TWITTER_DESC" />
+		<param name="googleplus_url" type="text" default="" label="TPL_VIDEOPLUS_GOOGLE_LABEL"
+			description="TPL_VIDEOPLUS_GOOGLE_DESC" />
+		<param name="book_marking" type="radio" default="1"
+			label="TPL_VIDEOPLUS_SOCIAL_ICONS_LABEL"
+			description="TPL_VIDEOPLUS_SOCIAL_ICON_DESC">
+			<option value="1">TPL_VIDEOPLUS_YES_LABEL</option>
+			<option value="0">TPL_VIDEOPLUS_NO_LABEL</option>
+		</param>
+		<param name="Fb_app_id" type="text" default="" label="TPL_VIDEOPLUS_API_LABEL"
+			description="TPL_VIDEOPLUS_API_DESC" />
+	</params>
+	<config>
+		<fields name="params"
+			addfieldpath="/administrator/components/com_banners/models/fields">
+			<fieldset name="TPL_VIDEOPLUS_LOGO_SETTING">
+				<field name="logo" type="Media" default="" label="TPL_VIDEOPLUS_LOGO_LABEL"
+					description="TPL_VIDEOPLUS_LOGO_DESC" directory="  " />
+			</fieldset>
+			<fieldset name="TPL_VIDEOPLUS_SOCIAL_ICON_SETTING">
+				<field name="facebook_url" type="text" default="" label="TPL_VIDEOPLUS_FACEBOOK_LABEL"
+					description="TPL_VIDEOPLUS_FACEBOOK_DESC" />
+				<field name="twitter_url" type="text" default="" label="TPL_VIDEOPLUS_TWITTER_LABEL"
+					description="TPL_VIDEOPLUS_TWITTER_DESC" />
+				<field name="googleplus_url" type="text" default="" label="TPL_VIDEOPLUS_GOOGLE_LABEL"
+					description="TPL_VIDEOPLUS_GOOGLE_DESC" />
+				<field name="book_marking" type="radio" default="1"
+					label="TPL_VIDEOPLUS_SOCIAL_ICONS_LABEL"
+					description="TPL_VIDEOPLUS_SOCIAL_ICON_DESC">
+					<option value="1">TPL_VIDEOPLUS_YES_LABEL</option>
+					<option value="0">TPL_VIDEOPLUS_NO_LABEL</option>
+				</field>
+				<field name="Fb_app_id" type="text" default="" label="TPL_VIDEOPLUS_API_LABEL"
+					description="TPL_VIDEOPLUS_API_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
